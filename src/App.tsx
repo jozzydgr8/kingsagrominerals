@@ -1,25 +1,54 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Layout } from './Layout';
 
 function App() {
+  useEffect(()=>{
+    const animation = ()=>{
+      var leftAnimate = document.querySelectorAll('.animate-left');
+      var rightAnimate = document.querySelectorAll('.animate-right');
+      var downAnimate = document.querySelectorAll('.animate-down');
+      var upAnimate = document.querySelectorAll('.animate-up');
+
+      var windowHeight = window.innerHeight;
+      rightAnimate.forEach(container=>{
+        var containerPosition = container.getBoundingClientRect().top;
+
+        if(containerPosition < windowHeight){
+          container.classList.add('sectionAnimationRight')
+        }
+
+      })
+      leftAnimate.forEach(container=>{
+        var containerPosition = container.getBoundingClientRect().top;
+
+        if(containerPosition < windowHeight){
+          container.classList.add('sectionAnimationLeft')
+        }
+
+      })
+      upAnimate.forEach(container=>{
+        var containerPosition = container.getBoundingClientRect().top;
+
+        if(containerPosition < windowHeight){
+          container.classList.add('sectionAnimationUp')
+        }
+
+      })
+      downAnimate.forEach(container=>{
+        var containerPosition = container.getBoundingClientRect().top;
+
+        if(containerPosition < windowHeight){
+          container.classList.add('sectionAnimationDown')
+        }
+
+      })
+    }
+    window.addEventListener('scroll', animation);
+  },[])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Layout/>
   );
 }
 

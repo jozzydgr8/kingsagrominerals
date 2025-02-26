@@ -6,8 +6,131 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.afterclass{
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 2%;
+  height: 3px;
+  background-color: black;
+  transform: translateX(-50%);
+}
+:root{
+  --bg-color:#6c757d
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+section > .container-fluid{
+  padding: 8% 3%;
+}
+
+nav .container-fluid{
+  padding: 1% 3%;
+}
+
+.whatsappIcon{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+.whatsappIcon img{
+  width: 80px;
+  height: 80px;
+}
+.backdrop{
+  backdrop-filter: brightness(65%) contrast(110%);
+  width: 100%;
+  height: 100%;
+}
+
+/* header section header section */
+#headerSection{
+  background-image: url('./assets/mineralbackground.jpg');
+  height: 80vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.backImg{
+  background-image: url('./assets/mineralbackground.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+}
+.mis-grid{
+  min-height: 60vh;
+}
+#mission-section .article{
+  background: var(--bg-color);
+  min-height: 100%;
+  color: white;
+  padding: 5% 9%;
+}
+
+
+.products{
+  background-image:url('./assets/crystalimg.jpg') ;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  /* margin: 5px 0; */
+  margin-bottom: 10px;
+  
+  
+}
+@media (max-width:750px) {
+  .products{
+    height: 200px;
+  }
+}
+
+.proList{
+  background: white;
+  width: 100%;
+  text-align: center;
+  padding: 5%;
+  border-radius: 5px;
+  margin: 0 15px;
+
+}
+#footer-section{
+  background: var(--bg-color);
+  color: white;
+}
+
+.sectionAnimationLeft{
+  scroll-behavior: smooth;
+  animation: backInLeft;
+  animation-duration: 1.5s;
+}
+.sectionAnimationDown{
+  scroll-behavior: smooth;
+  animation:fadeInDownBig;
+  animation-duration: 1.2s;
+}
+
+.sectionAnimationUp{
+  scroll-behavior: smooth;
+  animation:fadeInUpBig;
+  animation-duration: 1.2s;
+
+}
+.sectionAnimationRight{
+  scroll-behavior: smooth;
+  animation: backInRight;
+  animation-duration: 1.2s;
+}
+
