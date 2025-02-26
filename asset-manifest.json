@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kingsagrominerals/static/css/main.bff073c0.css",
+    "main.js": "/kingsagrominerals/static/js/main.f9146a06.js",
+    "static/js/453.8e8f9b9d.chunk.js": "/kingsagrominerals/static/js/453.8e8f9b9d.chunk.js",
+    "static/media/mineralbackground.jpg": "/kingsagrominerals/static/media/mineralbackground.2edf1485ee299f229f70.jpg",
+    "static/media/crystalimg.jpg": "/kingsagrominerals/static/media/crystalimg.327df7862d680a04aafd.jpg",
+    "index.html": "/kingsagrominerals/index.html",
+    "main.bff073c0.css.map": "/kingsagrominerals/static/css/main.bff073c0.css.map",
+    "main.f9146a06.js.map": "/kingsagrominerals/static/js/main.f9146a06.js.map",
+    "453.8e8f9b9d.chunk.js.map": "/kingsagrominerals/static/js/453.8e8f9b9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bff073c0.css",
+    "static/js/main.f9146a06.js"
+  ]
+}
