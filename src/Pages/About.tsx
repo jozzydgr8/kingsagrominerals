@@ -9,9 +9,9 @@ export const About = ()=>{
                
                         
                         <p>
-                            Kingsagrominerals Co. Ltd supply the top solid minerals such as. ilmenite ore,
+                            Kingsagrominerals Co. Ltd supply the top solid minerals such as ilmenite ore,
                             Iron ore, mica, lithium Etc.
-                            and metals. We are highly equipped with supply of 
+                            We are highly equipped with supply of 
                             different minerals you need. We are certified, professional 
                             and unbeatable in Agro minerals. 
                             Your business is sure on track with Kingsagrominerals Co. Ltd.
