@@ -15,7 +15,7 @@ export const Header = ()=>{
                     Supplying the World's Best solid Minerals
                     with Unmatched Quality & Reliability
                 </h1>
-                <div className="headerbutton"><button className="btn btn-success btn-lg "> Contact Us</button></div>
+                <div className="headerbutton"><button className="btn btn-success btn-lg "> <a href="tel:08056008168">Contact Us</a></button></div>
             </div>
         </section>
     )

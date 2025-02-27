@@ -1,11 +1,12 @@
-import rufiles from '../assets/rufiles-mineral.jpg'
+import mineralVid from '../assets/limonite-video.mp4'
 export const Benefit = ()=>{
     return(
         <section>
             <div className="container-fluid">
-                <h3 className='animate-left'>Why Choose Us?</h3>
-                <div className="row">
+                
+                <div className="row" style={{display:'flex', alignItems:'center'}}>
                     <div className="col-md-6">
+                    <h3 className='animate-left'>Why Choose Us?</h3>
                         <p className='animate-right'>
                         We are certified professionals dedicated to providing high-quality organic minerals to
                         industries worldwide. Through our strong global supply network and strategic partnerships,
@@ -13,14 +14,19 @@ export const Benefit = ()=>{
                         Our commitment to excellence guarantees reliable and sustainable solutions for all your mineral needs.
                         </p>
                         <div>
-                            <button className='btn btn-success animate-up '>Contact Us</button>
+                            <button className='btn btn-success animate-up '><a href='tel:08056008168'>Contact Us</a></button>
                             {/* <ion-icon name="heart"></ion-icon> */}
 
                         </div>
+                        <br/>
                     </div>
-                    <div className="col-md-6" style={{ display:'flex', justifyContent:'center'}}>
+                    
+                    <div className="col-md-6" style={{display:'flex', justifyContent:'center'}}>
                         
-                        
+                    <video className="hover animate-right" width="320" height="240" autoPlay loop muted>
+                        <source className="vid" src ={mineralVid}
+                        type="video/mp4"/>
+                    </video>
                         
                     </div>
                 </div>
