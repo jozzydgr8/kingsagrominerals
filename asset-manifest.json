@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/kingsagrominerals/static/css/main.7df8a0e6.css",
-    "main.js": "/kingsagrominerals/static/js/main.7946eaa3.js",
+    "main.css": "/kingsagrominerals/static/css/main.54ca0e9c.css",
+    "main.js": "/kingsagrominerals/static/js/main.8fa67d1e.js",
     "static/js/453.8e8f9b9d.chunk.js": "/kingsagrominerals/static/js/453.8e8f9b9d.chunk.js",
+    "static/media/limonite-video.mp4": "/kingsagrominerals/static/media/limonite-video.91b6504584572591246a.mp4",
     "static/media/limonite-black.jpg": "/kingsagrominerals/static/media/limonite-black.5b932fdc46452a68d772.jpg",
     "static/media/mineralbackground.jpg": "/kingsagrominerals/static/media/mineralbackground.2edf1485ee299f229f70.jpg",
     "static/media/rufiles-mineral.jpg": "/kingsagrominerals/static/media/rufiles-mineral.243806b296581c4e5a67.jpg",
@@ -10,12 +11,12 @@
     "static/media/crystalimg.jpg": "/kingsagrominerals/static/media/crystalimg.327df7862d680a04aafd.jpg",
     "static/media/titanium-mineral.jpg": "/kingsagrominerals/static/media/titanium-mineral.e0cff85fac5cf757fd71.jpg",
     "index.html": "/kingsagrominerals/index.html",
-    "main.7df8a0e6.css.map": "/kingsagrominerals/static/css/main.7df8a0e6.css.map",
-    "main.7946eaa3.js.map": "/kingsagrominerals/static/js/main.7946eaa3.js.map",
+    "main.54ca0e9c.css.map": "/kingsagrominerals/static/css/main.54ca0e9c.css.map",
+    "main.8fa67d1e.js.map": "/kingsagrominerals/static/js/main.8fa67d1e.js.map",
     "453.8e8f9b9d.chunk.js.map": "/kingsagrominerals/static/js/453.8e8f9b9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7df8a0e6.css",
-    "static/js/main.7946eaa3.js"
+    "static/css/main.54ca0e9c.css",
+    "static/js/main.8fa67d1e.js"
   ]
 }
