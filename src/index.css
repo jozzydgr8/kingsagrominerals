@@ -92,7 +92,7 @@ nav .container-fluid{
 }
 
 
-.product-mica, .product-rufite, .product-limonite {
+.product-mica, .product-rufite, .product-limonite, .product-titanium {
   
   background-size: cover;
   background-position: center center;
@@ -104,6 +104,7 @@ nav .container-fluid{
   
   
 }
+
 .product-mica{
   background-image:url('./assets/mica-mineral.jpg') ;
 }
@@ -114,9 +115,12 @@ nav .container-fluid{
 .product-rufite{
   background-image:url('./assets/rufiles-mineral.jpg') ;
 }
+.product-titanium{
+  background-image: url('./assets/titanium-mineral.jpg');
+}
 
 @media (max-width:750px) {
-  .product-mica, .product-rufite, .product-limonite {
+  .product-mica, .product-rufite, .product-limonite,.product-titanium {
     height: 200px;
   }
 }

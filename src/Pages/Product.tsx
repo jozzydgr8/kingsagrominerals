@@ -17,6 +17,12 @@ export const Product = ()=>{
                     </div>
                     <div className=' col-md-4'>
                         
+                        <div className="product-titanium">
+                        <div className='proList'>Metals</div>
+                        </div>
+                    </div>
+                    <div className=' col-md-4'>
+                        
                         <div className="product-rufite">
                         <div className='proList'>Gems</div>
                         </div>
