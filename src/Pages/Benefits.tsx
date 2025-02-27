@@ -23,7 +23,7 @@ export const Benefit = ()=>{
                     
                     <div className="col-md-6" style={{display:'flex', justifyContent:'center'}}>
                         
-                    <video className="hover animate-right" width="320" height="240" autoPlay loop muted>
+                    <video className="hover animate-right" width="320" height="240" autoPlay loop controls muted>
                         <source className="vid" src ={mineralVid}
                         type="video/mp4"/>
                     </video>
