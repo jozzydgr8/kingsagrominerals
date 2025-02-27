@@ -1,10 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: "Merriweather Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 .afterclass{
   content: '';
@@ -23,12 +26,22 @@ a{
   color: inherit;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h3, h4{
+  font-family: "Esteban", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+h4{
+  color: gold;
 }
 section > .container-fluid{
   padding: 8% 3%;
+}
+.navbar-brand{
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav .container-fluid{
@@ -61,7 +74,7 @@ nav .container-fluid{
   color: white;
 }
 .backImg{
-  background-image: url('./assets/mineralbackground.jpg');
+  background-image: url('./assets/crystalimg.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,8 +92,8 @@ nav .container-fluid{
 }
 
 
-.products{
-  background-image:url('./assets/crystalimg.jpg') ;
+.product-mica, .product-rufite, .product-limonite {
+  
   background-size: cover;
   background-position: center center;
   height: 400px;
@@ -91,8 +104,18 @@ nav .container-fluid{
   
   
 }
+.product-mica{
+  background-image:url('./assets/mica-mineral.jpg') ;
+}
+.product-limonite{
+  background-image:url('./assets/Lithium-mineral.jpg') ;
+}
+.product-rufite{
+  background-image:url('./assets/rufiles-mineral.jpg') ;
+}
+
 @media (max-width:750px) {
-  .products{
+  .product-mica, .product-rufite, .product-limonite {
     height: 200px;
   }
 }
