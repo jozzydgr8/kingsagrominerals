@@ -6,19 +6,19 @@ export const Product = ()=>{
                     <div className=' col-md-4'>
                         
                         <div className="product-limonite">
-                        <div className='proList'>Lithium</div>
+                        <div className='proList'>Mineral Sand</div>
                         </div>
                     </div>
                     <div className=' col-md-4'>
                         
                         <div className="product-mica">
-                        <div className='proList'>Mica</div>
+                        <div className='proList'>Minerals</div>
                         </div>
                     </div>
                     <div className=' col-md-4'>
                         
                         <div className="product-rufite">
-                        <div className='proList'>Rufite</div>
+                        <div className='proList'>Gems</div>
                         </div>
                     </div>
                     

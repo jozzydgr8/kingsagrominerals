@@ -18,6 +18,12 @@ function Navbar() {
           <a className="nav-link" href="#">About</a>
         </li>
         <li className="nav-item">
+          <a className="nav-link" href="#">Products</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Our Philosphy</a>
+        </li>
+        <li className="nav-item">
           <button className="btn btn-success">Contact Us</button>
         </li>
       </ul>
