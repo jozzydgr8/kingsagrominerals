@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/kingsagrominerals/static/css/main.bff073c0.css",
-    "main.js": "/kingsagrominerals/static/js/main.f9146a06.js",
+    "main.css": "/kingsagrominerals/static/css/main.0c688d31.css",
+    "main.js": "/kingsagrominerals/static/js/main.c423c425.js",
     "static/js/453.8e8f9b9d.chunk.js": "/kingsagrominerals/static/js/453.8e8f9b9d.chunk.js",
     "static/media/mineralbackground.jpg": "/kingsagrominerals/static/media/mineralbackground.2edf1485ee299f229f70.jpg",
+    "static/media/rufiles-mineral.jpg": "/kingsagrominerals/static/media/rufiles-mineral.243806b296581c4e5a67.jpg",
+    "static/media/mica-mineral.jpg": "/kingsagrominerals/static/media/mica-mineral.e3063313d581970809a4.jpg",
     "static/media/crystalimg.jpg": "/kingsagrominerals/static/media/crystalimg.327df7862d680a04aafd.jpg",
+    "static/media/Lithium-mineral.jpg": "/kingsagrominerals/static/media/Lithium-mineral.789feb823ef28b39b6ac.jpg",
     "index.html": "/kingsagrominerals/index.html",
-    "main.bff073c0.css.map": "/kingsagrominerals/static/css/main.bff073c0.css.map",
-    "main.f9146a06.js.map": "/kingsagrominerals/static/js/main.f9146a06.js.map",
+    "main.0c688d31.css.map": "/kingsagrominerals/static/css/main.0c688d31.css.map",
+    "main.c423c425.js.map": "/kingsagrominerals/static/js/main.c423c425.js.map",
     "453.8e8f9b9d.chunk.js.map": "/kingsagrominerals/static/js/453.8e8f9b9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bff073c0.css",
-    "static/js/main.f9146a06.js"
+    "static/css/main.0c688d31.css",
+    "static/js/main.c423c425.js"
   ]
 }
