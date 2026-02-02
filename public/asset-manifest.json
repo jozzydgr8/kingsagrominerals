@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f45414b.css",
+    "main.js": "/static/js/main.31fcc1e7.js",
+    "static/js/453.7db4327a.chunk.js": "/static/js/453.7db4327a.chunk.js",
+    "static/media/limonite-video.mp4": "/static/media/limonite-video.91b6504584572591246a.mp4",
+    "static/media/mineralbackground.jpg": "/static/media/mineralbackground.83c60f2e432da5f8ba1d.jpg",
+    "static/media/rufiles-mineral.jpg": "/static/media/rufiles-mineral.b32fff92c9b37ef6d543.jpg",
+    "static/media/limonite-black.jpg": "/static/media/limonite-black.abd4b37726b5d9851ca6.jpg",
+    "static/media/mica-mineral.jpg": "/static/media/mica-mineral.b03e619e1c119c04d730.jpg",
+    "static/media/crystalimg.jpg": "/static/media/crystalimg.0d49174f1495719ebc48.jpg",
+    "static/media/titanium-mineral.jpg": "/static/media/titanium-mineral.d46133d196a1c7d728d9.jpg",
+    "index.html": "/index.html",
+    "main.8f45414b.css.map": "/static/css/main.8f45414b.css.map",
+    "main.31fcc1e7.js.map": "/static/js/main.31fcc1e7.js.map",
+    "453.7db4327a.chunk.js.map": "/static/js/453.7db4327a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f45414b.css",
+    "static/js/main.31fcc1e7.js"
+  ]
+}

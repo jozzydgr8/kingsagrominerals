@@ -7,7 +7,7 @@ export const Benefit = ()=>{
                 <div className="row" style={{display:'flex', alignItems:'center'}}>
                     <div className="col-md-6">
                     <h3 className='animate-left'>Why Choose Us?</h3>
-                        <p className='animate-right'>
+                        <p className='animate-left'>
                         We are certified professionals dedicated to providing high-quality organic minerals to
                         industries worldwide. Through our strong global supply network and strategic partnerships,
                         We ensure the seamless export of premium-grade minerals that meet international standards.

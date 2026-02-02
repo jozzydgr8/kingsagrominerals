@@ -1,8 +1,8 @@
-import React from 'react'
+
 export const Product = ()=>{
     return(
         <>
-                <div className="product-grid row animate-left">
+                <div className="product-grid row">
                     <div className=' col-md-4'>
                         
                         <div className="product-limonite">

@@ -8,7 +8,7 @@ export const About = ()=>{
             <div className="afterclass"></div> <br/>
                
                         
-                        <p>
+                        <p className="animate-left">
                             Kingsagrominerals Co. Ltd supply the top solid minerals such as ilmenite ore,
                             Iron ore, mica, lithium Etc.
                             We are highly equipped with supply of 
